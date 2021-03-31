@@ -4,9 +4,13 @@ public class FollowCamera : MonoBehaviour
 {
     [SerializeField] private Transform target;
     [SerializeField] private Vector3 offset;
+    [SerializeField] private bool enable;
 
     void FixedUpdate()
     {
-        transform.position = target.position + offset;
+        if (enable)
+        {
+            transform.position = target.position + offset;
+        }
     }
 }
