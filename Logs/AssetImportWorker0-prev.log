@@ -1,0 +1,162 @@
+Using pre-set license
+Built from '2020.3/release' branch; Version is '2020.3.1f1 (77a89f25062f) revision 7841951'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 21313.1000; Version 2009; 64bit' Language: 'en' Physical Memory: 8096 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\Program Files (x86)\2020.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Punya Ariel/Proyek Ariel/Game Engine/Reflection of Persona
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+63256
+Successfully changed project path to: E:/Punya Ariel/Proyek Ariel/Game Engine/Reflection of Persona
+E:/Punya Ariel/Proyek Ariel/Game Engine/Reflection of Persona
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 101.23 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.1f1 (77a89f25062f)
+[Subsystems] Discovering subsystems at path D:/Program Files (x86)/2020.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Punya Ariel/Proyek Ariel/Game Engine/Reflection of Persona/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 610M (ID=0x1058)
+    Vendor:   
+    VRAM:     1974 MB
+    Driver:   23.21.13.9135
+Initialize mono
+Mono path[0] = 'D:/Program Files (x86)/2020.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files (x86)/2020.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Program Files (x86)/2020.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56248
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files (x86)/2020.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.023650 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 122.43 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.429 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002822 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 193.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.041 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.88 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1833 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 4.991200 ms (FindLiveObjects: 0.441300 ms CreateObjectMapping: 0.151600 ms MarkObjects: 4.107800 ms  DeleteObjects: 0.286700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/MyAssets/Ariel/Scripts/FollowCamera.cs
+  artifactKey: Guid(ee0773d8038bbf74781b6ca4e75f22ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/Ariel/Scripts/FollowCamera.cs using Guid(ee0773d8038bbf74781b6ca4e75f22ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1aa78bc8f1c58d28f3e76bd2f4d3b50') in 0.480393 seconds
+  Import took 0.685109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062436 seconds.
+  path: Assets/MyAssets/Ariel/Scripts/PlayerMovement.cs
+  artifactKey: Guid(576443f553a6e064ebd95b921b7adc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/Ariel/Scripts/PlayerMovement.cs using Guid(576443f553a6e064ebd95b921b7adc5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbb2c6827977de0e6f9ab6468e18425') in 0.051506 seconds
+  Import took 0.117805 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 226.968461 seconds.
+  path: Assets/MyAssets/Ariel/Scripts/FollowCamera.cs
+  artifactKey: Guid(ee0773d8038bbf74781b6ca4e75f22ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyAssets/Ariel/Scripts/FollowCamera.cs using Guid(ee0773d8038bbf74781b6ca4e75f22ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a606f6a75cebacb5b6cccf321c604e9') in 0.060445 seconds
+  Import took 0.093415 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002144 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.838 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1828 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.3 MB.
+System memory in use after: 85.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2279.
+Total: 6.267000 ms (FindLiveObjects: 0.277500 ms CreateObjectMapping: 0.098500 ms MarkObjects: 5.585800 ms  DeleteObjects: 0.300600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 982.708549 seconds.
+  path: Assets/ImportedAssetsfrStore/Standard Assets/PhysicsMaterials
+  artifactKey: Guid(5eebb5849c50a2c4ea24ded96e6f3aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssetsfrStore/Standard Assets/PhysicsMaterials using Guid(5eebb5849c50a2c4ea24ded96e6f3aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296dd991dc68d16634796918a4ebb72c') in 0.076208 seconds
+  Import took 0.103724 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.311582 seconds.
+  path: Assets/ImportedAssetsfrStore/Standard Assets/Utility
+  artifactKey: Guid(4539eb30e895bbb41b5eae6df2dde978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssetsfrStore/Standard Assets/Utility using Guid(4539eb30e895bbb41b5eae6df2dde978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2be140c7c4ca9844b59c5a3f99c171e4') in 0.084611 seconds
+  Import took 0.126095 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.609396 seconds.
+  path: Assets/ImportedAssetsfrStore/Standard Assets/2D/Materials
+  artifactKey: Guid(a8360d6cbb0b24d30ad943985708a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssetsfrStore/Standard Assets/2D/Materials using Guid(a8360d6cbb0b24d30ad943985708a039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e169a331d38349ce7b62ad74d20ea50') in 0.041050 seconds
+  Import took 0.073130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.403811 seconds.
+  path: Assets/ImportedAssetsfrStore/Standard Assets/2D/PhysicsMaterials
+  artifactKey: Guid(acf5e119c54034bd8bfbd5f21cc246db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssetsfrStore/Standard Assets/2D/PhysicsMaterials using Guid(acf5e119c54034bd8bfbd5f21cc246db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6026745fbf5ce6a9db7badf31f63648') in 0.066550 seconds
+  Import took 0.093462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.212299 seconds.
+  path: Assets/ImportedAssetsfrStore/Standard Assets/2D/Prefabs
+  artifactKey: Guid(e6569085fafaa4cd1b747c51376fa329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ImportedAssetsfrStore/Standard Assets/2D/Prefabs using Guid(e6569085fafaa4cd1b747c51376fa329) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e497240e4727e8c3046537a8ec5da006') in 0.052016 seconds
+  Import took 0.068463 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
