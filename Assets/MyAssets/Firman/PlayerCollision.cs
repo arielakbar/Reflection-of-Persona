@@ -23,8 +23,16 @@ public class PlayerCollision : MonoBehaviour
             FindObjectOfType<GameManager>().LevelComplete();
             FindObjectOfType<GameManager>().Invoke("NextLevel",delay);
         }
+    }
+    void OnTriggerEnter2D(Collider2D collision)
+    {
 
+        if (collision.gameObject.CompareTag("Lever"))
+        {
+            GameObject.Find("Lever").GetComponent<Animator>().enabled = true;
 
+            GameObject.Find("KOTAKFALL").GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+        }
     }
 
 }
