@@ -35,16 +35,17 @@ public class ArealCameraStandby : MonoBehaviour
     private void Update()
     {
         bKiri.position.Set((uKiri.position.x + offset.x), (uKiri.position.y + offset.y), zCamera);
-        //jika player melewati border kanan
+        //jika player melewati border kiri
         if ((player.position.x > uKiri.position.x) && (player.position.x < bKiri.position.x) && (pindahDetect == false))
         {
-            pindahCam = 1;
-            pindahDetect = true;
+            //pindahCam = 1;
+            
         }
-        //Jika player melewati border kiri
+        //Jika player melewati border kanan
         else if ((player.position.x > bKanan.position.x) && (player.position.x < uKanan.position.x) && (pindahDetect == false))
         {
             pindahCam = 2;
+            pindahDetect = true;
         }
         else
         {
