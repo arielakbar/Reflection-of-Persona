@@ -55,12 +55,38 @@ public class ArealCameraStandby : MonoBehaviour
         switch (pindahCam)
         {
             case 1:
+<<<<<<< Updated upstream
                 {
                     Debug.Log("case 1");
                     uKiri.position.Set(GeserUjung(uKiri.position.x, offset.x, lebarLayar, -1), uKiri.position.x, zCamera);
                     bKiri.position.Set(GeserUjung(bKiri.position.x, offset.x, lebarLayar, -1), bKiri.position.y, zCamera);
                     bKanan.position.Set(uKiri.position.x, bKanan.position.y, zCamera);
                     uKanan.position.Set(bKiri.position.x, uKanan.position.y, zCamera);
+=======
+                Debug.Log("case 1");
+                //mengeset border kiri sebagai border kanan yang baru
+                borderKanan.position.Set(borderKiri.position.x, borderKiri.position.y, 0);
+                //menggeser border kiri sebannyak lebarLayar ke kiri
+                borderKiri.position.Set((borderKiri.position.x - lebarLayar), borderKanan.position.y, 0);
+                geser.Set((transform.position.x - jarakCam * 2), transform.position.y, transform.position.z);
+                transform.position = geser;
+                pindahCam = 0;
+                pindahDetect = true;
+                break;
+            case 2:
+                Debug.Log("case 2");
+                //mengeset border kanan sebagai border kiri yang baru
+                borderKiri.position.Set(borderKanan.position.x, borderKiri.position.y, 0);
+                //menggeser border kanan sebanyak nilai dari lebarLayar
+                borderKanan.position.Set((borderKanan.position.x + lebarLayar), borderKanan.position.y, 0);
+                //transform.position.Set((transform.position.x + jarakCam * 2), transform.position.y, transform.position.z);
+                geser.Set((transform.position.x + jarakCam*2), transform.position.y, transform.position.z);
+                transform.position = geser;
+                pindahCam = 0;
+                pindahDetect = true;
+                break;
+        }
+>>>>>>> Stashed changes
 
                     //uKiri.position.Set(uKiri.position.x - lebarLayar, uKiri.position.y, zCamera);
                     //uKanan.position.Set(uKanan.position.x - lebarLayar, uKanan.position.y, zCamera);
