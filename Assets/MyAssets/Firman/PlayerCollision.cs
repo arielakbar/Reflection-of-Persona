@@ -26,13 +26,22 @@ public class PlayerCollision : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+
+            FindObjectOfType<GameManager>().GameOver();
+
+        }
 
         if (collision.gameObject.CompareTag("Lever"))
         {
             GameObject.Find("Lever").GetComponent<Animator>().enabled = true;
 
             GameObject.Find("KOTAKFALL").GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            GameObject.Find("KOTAKFALLSS").GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
+            GameObject.Find("KOTAKFALLS").GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Dynamic;
         }
+
     }
 
 }

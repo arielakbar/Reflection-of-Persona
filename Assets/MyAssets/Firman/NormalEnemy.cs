@@ -16,7 +16,7 @@ public class NormalEnemy : MonoBehaviour
    //Fungsi Saat Musuh Collide Dengan batas sehingga akan balik arah
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Putar"))
+        if (collision.gameObject.CompareTag("Turn"))
         {
             Debug.Log("PUTERBALIK");
             if (movingRight == true)

@@ -124,10 +124,10 @@ TextureImporter:
       name: FIX (berjalan beneran fix) (1)_0
       rect:
         serializedVersion: 2
-        x: 144
-        y: 624
-        width: 151
-        height: 267
+        x: 0
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,10 +145,10 @@ TextureImporter:
       name: FIX (berjalan beneran fix) (1)_1
       rect:
         serializedVersion: 2
-        x: 645
-        y: 624
-        width: 151
-        height: 267
+        x: 500
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,10 +166,10 @@ TextureImporter:
       name: FIX (berjalan beneran fix) (1)_2
       rect:
         serializedVersion: 2
-        x: 1144
-        y: 624
-        width: 152
-        height: 267
+        x: 1000
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,10 +187,10 @@ TextureImporter:
       name: FIX (berjalan beneran fix) (1)_3
       rect:
         serializedVersion: 2
-        x: 1644
-        y: 624
-        width: 152
-        height: 267
+        x: 1500
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,10 +208,10 @@ TextureImporter:
       name: FIX (berjalan beneran fix) (1)_4
       rect:
         serializedVersion: 2
-        x: 2144
-        y: 624
-        width: 152
-        height: 267
+        x: 2000
+        y: 500
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,10 +229,10 @@ TextureImporter:
       name: FIX (berjalan beneran fix) (1)_5
       rect:
         serializedVersion: 2
-        x: 144
-        y: 125
-        width: 151
-        height: 266
+        x: 0
+        y: 0
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: FIX (berjalan beneran fix) (1)_6
       rect:
         serializedVersion: 2
-        x: 645
-        y: 125
-        width: 151
-        height: 266
+        x: 500
+        y: 0
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,10 +271,10 @@ TextureImporter:
       name: FIX (berjalan beneran fix) (1)_7
       rect:
         serializedVersion: 2
-        x: 1144
-        y: 125
-        width: 152
-        height: 266
+        x: 1000
+        y: 0
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: FIX (berjalan beneran fix) (1)_8
       rect:
         serializedVersion: 2
-        x: 1644
-        y: 125
-        width: 152
-        height: 266
+        x: 1500
+        y: 0
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +313,10 @@ TextureImporter:
       name: FIX (berjalan beneran fix) (1)_9
       rect:
         serializedVersion: 2
-        x: 2144
-        y: 125
-        width: 152
-        height: 266
+        x: 2000
+        y: 0
+        width: 500
+        height: 500
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
